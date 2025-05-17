@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Css_First_Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <form>
+      <h2>Step 1: Your details</h2>
+      <div class="section-box">
+        <label style="display: inline-block; margin-right: 69px;">Name</label>
+        <input type="text" placeholder="First and last name" required />
+      </div>
+
+      <div class="section-box">
+        <label style="display: inline-block; margin-right: 69px;">Email</label>
+        <input type="text" placeholder="example@domain.com" required />
+      </div>
+
+      <div class="section-box">
+        <label style="display: inline-block; margin-right: 65px;">Phone</label>
+        <input type="text" placeholder="Eg. +447500000000" required />
+      </div>
+
+      <h2>Step 2: Delivery address</h2>
+      <div class="section-box" style="margin-bottom: 1px;">
+  <label style="display: inline-block; margin-right: 58px; vertical-align: top;">Address</label>
+  <textarea style="height: 80px; width: 190px; margin-bottom: 5px" required></textarea>
+</div>
+
+      <div class="section-box" style="margin-bottom: 1px;">
+        <label  style="display: inline-block; margin-right: 48px;">Post code</label>
+        <input type="text" required />
+      </div>
+      <div class="section-box">
+        <label  style="display: inline-block; margin-right: 60px;">Country</label>
+        <input type="text" required />
+        </div>
+
+      <h2>Step 3: Card details</h2>
+      <div class="section-box">
+        <label>Card type</label>
+        <div class="card-type">
+          <label><input type="radio" name="card" required /><img src="https://img.icons8.com/color/24/visa.png" /> VISA</label>
+          <label><input type="radio" name="card" /><img src="https://img.icons8.com/color/24/amex.png" /> AmEx</label>
+          <label><input type="radio" name="card" /><img src="https://img.icons8.com/color/24/mastercard.png" /> Mastercard</label>
+        </div>
+      </div>
+      
+    <div class="section-box">
+        <label style="display: inline-block; margin-right: 30px;">Card number</label>
+        <input type="text" required />
+      </div>
+
+      <div class="section-box">
+        <label style="display: inline-block; margin-right: 25px;">Security code</label>
+        <input type="text" required />
+      </div>
+
+      <div class="section-box">
+        <label style="display: inline-block; margin-right: 25px;">Name on card</label>
+        <input type="text" placeholder="Exact name as on the card" required />
+      </div>
+      <button type="submit">BUY IT!</button>
+    </form>
+  </div>
+</body>
+</html>
